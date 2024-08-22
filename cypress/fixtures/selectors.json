@@ -1,4 +1,5 @@
 {
+  "fileDownload": "#__next > div > section.mb-50 > div > ul > li:nth-child(16) > a",
   "textField": "#textbox",
   "generateFile": "#create",
   "downloadButton": "#link-to-download"

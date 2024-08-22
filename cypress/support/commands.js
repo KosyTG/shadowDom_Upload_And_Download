@@ -23,3 +23,10 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+Cypress.Commands.add('clickAnyElement',(element)=>{
+    cy.get(element).should('be.visible').and('exist').click()
+})
+
+Cypress.Commands.add('typeAnyTextAnywhere',(fields, text)=>{
+    cy.get(fields).should('be.visible').and('exist').type(text)
+})
