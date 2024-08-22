@@ -1,6 +1,6 @@
 {
   "textField": "#textbox",
   "generateFile": "#create",
-  "downloadButton":"link-to-download"
+  "downloadButton": "#link-to-download"
   
 }
