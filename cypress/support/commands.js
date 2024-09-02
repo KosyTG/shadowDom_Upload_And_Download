@@ -30,3 +30,11 @@ Cypress.Commands.add('clickAnyElement',(element)=>{
 Cypress.Commands.add('typeAnyTextAnywhere',(fields, text)=>{
     cy.get(fields).should('be.visible').and('exist').type(text)
 })
+
+// Cypress.Commands.add('findAnyElementAnywhere',(fields, text)=>{
+//     cy.get(fields).shadow().find(fields).should('exist').type(text)
+// })
+
+// Cypress.Commands.add('clickFindAnyElement',(element)=>{
+//     cy.get(element).shadow().find(element).should('exist').click()
+// })
