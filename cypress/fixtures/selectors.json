@@ -4,5 +4,12 @@
   "generateFile": "#create",
   "downloadButton": "#link-to-download",
   "uploadFile":"#__next > div > section.mb-50 > div > ul > li:nth-child(41) > a",
-  "chooseFile":"input[type='file']"
+  "chooseFile":"input[type='file']",
+  "shadowDOM":"#__next > div > section.mb-50 > div > ul > li:nth-child(33) > a",
+  "shadowSignUpForm":"shadow-signup-form",
+  "shadowUsername":"input[name='username']",
+  "shadowEmailAddress":"input[name='email']",
+  "shadowPassword":"input[name='password']",
+  "shadowConfirmPassword":"input[name='confirm_password']",
+  "submitButton":"div > form > div:nth-child(6) > div > button"
 }

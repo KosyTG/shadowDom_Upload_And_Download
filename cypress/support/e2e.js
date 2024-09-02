@@ -23,3 +23,9 @@ beforeEach('Testing runs', ()=>{
     cy.visit('/')
 
 })
+
+// cy.on('uncaught:exception', (err, runnable) => {
+//     expect(err.message).to.include('of undefined')
+//       done()
+//       return false
+//     });

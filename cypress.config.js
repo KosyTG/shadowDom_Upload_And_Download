@@ -7,6 +7,7 @@ module.exports = defineConfig({
     viewportHeight: 900,
     viewportWidth: 1680,
     chromeWebSecurity: false,
+    includeShadowDom: true,
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
